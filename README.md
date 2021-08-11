@@ -3,6 +3,8 @@
 docker compose up -d
 ```
 
+Após o container ser iniciado, acesse `localhost:8080` e você deverá ver a mensagem "hello world"
+
 ### Para desligar os containers
 ```
 docker compose down
