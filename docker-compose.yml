@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  meu.container.legal:
+    image: heroku/nodejs-hello-world
+    container_name: literalmenteoquetuquiser
+    restart: unless-stopped
+    ports:
+      - "8080:3000"
